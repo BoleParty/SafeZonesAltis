@@ -1,0 +1,2242 @@
+#define _ARMA_
+
+
+//Class mission.sqm{
+version = 12;
+class Mission
+{
+ addOns[] = {"A3_Soft_F_Car","A3_Soft_F_Quadbike","a3_soft_f_beta_quadbike","A3_Boat_F_Civilian_Boat","A3_Boat_F_Boat_Transport_01","A3_Air_F_Heli_Light_01","A3_Air_F_Heli_Heli_Transport_04","A3_Air_F_Heli_Heli_Transport_03","a3_map_altis","a3_characters_f_gamma","A3_Characters_F_OPFOR","A3_Characters_F_INDEP","A3_Characters_F_Civil","A3_epoch_config","a3_characters_f","A3_Data_F_Curator_Virtual"};
+ addOnsAuto[] = {"A3_epoch_config","a3_map_altis"};
+ randomSeed = 12032465;
+ class Intel
+ {
+  briefingName = "Epoch Mod";
+  resistanceWest = 0;
+  timeOfChanges = 28800;
+  startWeather = 0;
+  startWind = 0;
+  forecastWeather = 0;
+  forecastWind = 0;
+  forecastWaves = 0;
+  wavesForced = 1;
+  windForced = 1;
+  year = 2035;
+  month = 6;
+  day = 24;
+  hour = 12;
+  minute = 55;
+  startFogDecay = 0.013;
+  forecastFogDecay = 0.013;
+ };
+ class Groups
+ {
+  items = 100;
+  class Item0
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.1,3.19,17997.1};
+     azimut = 136.241;
+     special = "NONE";
+     id = 0;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item1
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.4,3.19,18001.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 1;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item2
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.4,3.19,17999.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 2;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item3
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604.3,3.19,18004.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 3;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item4
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23596.8,3.19,18001.8};
+     azimut = 130.016;
+     special = "NONE";
+     id = 4;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item5
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.9,3.19,18002.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 5;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item6
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.2,3.19,18005};
+     azimut = 130.016;
+     special = "NONE";
+     id = 6;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item7
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.3,3.19,18003.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 7;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item8
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.6,3.19,18003.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 8;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item9
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604.9,3.19,18004.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 9;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item10
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23596.2,3.19,17998.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 10;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item11
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.2,3.19,17997.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 11;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item12
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.9,3.19,18002};
+     azimut = 130.016;
+     special = "NONE";
+     id = 12;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item13
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.9,3.19,17999.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 13;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item14
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.4,3.19,18001.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 14;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item15
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.7,3.19,17997.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 15;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item16
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.9,3.19,17996.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 16;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item17
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.6,3.19,17996.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 17;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item18
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.1,3.19,18004.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 18;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item19
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.3,3.19,18005.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 19;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item20
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.9,3.19,18001.6};
+     azimut = 136.241;
+     special = "NONE";
+     id = 20;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item21
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.7,3.19,17998.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 21;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item22
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.7,3.19,17998.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 22;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item23
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.8,3.19,18004.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 23;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item24
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.2,3.19,17997.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 24;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item25
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.8,3.19,18004.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 25;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item26
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.5,3.19,18005.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 26;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item27
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604.4,3.19,18003.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 27;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item28
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.9,3.19,18002.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 28;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item29
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599,3.19,17996.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 29;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item30
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.2,3.19,17999};
+     azimut = 130.016;
+     special = "NONE";
+     id = 30;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item31
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604.8,3.19,18000.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 31;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item32
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.1,3.19,17999.8};
+     azimut = 130.016;
+     special = "NONE";
+     id = 32;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item33
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.4,3.19,17997.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 33;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item34
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23596.7,3.19,17999.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 34;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item35
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.3,3.19,18002.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 35;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item36
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.8,3.19,18004.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 36;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item37
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.7,3.19,18001.6};
+     azimut = 130.016;
+     special = "NONE";
+     id = 37;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item38
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23605.1,3.19,17998.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 38;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item39
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.4,3.19,18003};
+     azimut = 130.016;
+     special = "NONE";
+     id = 39;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item40
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.5,3.19,17999.7};
+     azimut = 136.241;
+     special = "NONE";
+     id = 40;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item41
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.9,3.19,17997.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 41;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item42
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.9,3.19,17999};
+     azimut = 130.016;
+     special = "NONE";
+     id = 42;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item43
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23594.8,3.19,18002.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 43;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item44
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.1,3.19,18002.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 44;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item45
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.3,3.19,18003};
+     azimut = 130.016;
+     special = "NONE";
+     id = 45;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item46
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597,3.19,18002.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 46;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item47
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.1,3.19,18004.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 47;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item48
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.3,3.19,18003.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 48;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item49
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601,3.19,18002};
+     azimut = 130.016;
+     special = "NONE";
+     id = 49;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item50
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.2,3.19,18000.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 50;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item51
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.5,3.19,18000.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 51;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item52
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.5,3.19,18003.6};
+     azimut = 130.016;
+     special = "NONE";
+     id = 52;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item53
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.5,3.19,17997.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 53;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item54
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.9,3.19,18004.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 54;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item55
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.1,3.19,18002.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 55;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item56
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.8,3.19,18004};
+     azimut = 130.016;
+     special = "NONE";
+     id = 56;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item57
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23596.3,3.19,18000.8};
+     azimut = 130.016;
+     special = "NONE";
+     id = 57;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item58
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23594.6,3.19,18003.6};
+     azimut = 130.016;
+     special = "NONE";
+     id = 58;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item59
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.7,3.19,18004};
+     azimut = 130.016;
+     special = "NONE";
+     id = 59;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item60
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.2,3.19,17998.6};
+     azimut = 136.241;
+     special = "NONE";
+     id = 60;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item61
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.6,3.19,18000.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 61;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item62
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600,3.19,17999.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 62;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item63
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604.4,3.19,18002.6};
+     azimut = 130.016;
+     special = "NONE";
+     id = 63;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item64
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.4,3.19,17998.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 64;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item65
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23596.3,3.19,18003.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 65;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item66
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.6,3.19,18003.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 66;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item67
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.6,3.19,18003.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 67;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item68
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.4,3.19,18003.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 68;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item69
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.2,3.19,18002.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 69;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item70
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.1,3.19,18000.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 70;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item71
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23605.1,3.19,18001.2};
+     azimut = 130.016;
+     special = "NONE";
+     id = 71;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item72
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.5,3.19,18003.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 72;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item73
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.9,3.19,17998.4};
+     azimut = 130.016;
+     special = "NONE";
+     id = 73;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item74
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.1,3.19,18002.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 74;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item75
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.8,3.19,18000.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 75;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item76
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23596.7,3.19,18004.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 76;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item77
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23602.3,3.19,17996.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 77;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item78
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604,3.19,18000.8};
+     azimut = 130.016;
+     special = "NONE";
+     id = 78;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item79
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.9,3.19,17999.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 79;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item80
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23598.3,3.19,18000.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 80;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item81
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.7,3.19,18001.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 81;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item82
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.8,3.19,18001.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 82;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item83
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23595.5,3.19,17999};
+     azimut = 130.016;
+     special = "NONE";
+     id = 83;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item84
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23599.4,3.19,18000.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 84;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item85
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23605.2,3.19,18001.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 85;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item86
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603,3.19,18001.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 86;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item87
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.2,3.19,17996.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 87;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item88
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604.3,3.19,17999.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 88;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item89
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23604.2,3.19,18001.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 89;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item90
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23597.9,3.19,17996.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 90;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item91
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.2,3.19,17996.3};
+     azimut = 130.016;
+     special = "NONE";
+     id = 91;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item92
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.8,3.19,17997.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 92;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item93
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23596.9,3.19,17996.7};
+     azimut = 130.016;
+     special = "NONE";
+     id = 93;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item94
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23605.6,3.19,17999.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 94;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item95
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23601.8,3.19,17997.9};
+     azimut = 130.016;
+     special = "NONE";
+     id = 95;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item96
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603.6,3.19,18000.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 96;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item97
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23603,3.19,17998.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 97;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item98
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23600.6,3.19,17997.5};
+     azimut = 130.016;
+     special = "NONE";
+     id = 98;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+  class Item99
+  {
+   side = "CIV";
+   class Vehicles
+   {
+    items = 1;
+    class Item0
+    {
+     position[] = {23605.1,3.19,17998.1};
+     azimut = 130.016;
+     special = "NONE";
+     id = 99;
+     side = "CIV";
+     vehicle = "VirtualMan_EPOCH";
+     player = "PLAY CDG";
+     leader = 1;
+     skill = 0.6;
+    };
+   };
+  };
+ };
+ class Markers
+ {
+  items = 9;
+  class Item0
+  {
+   position[] = {14939.9,0.0534991,15083.3};
+   name = "center";
+   type = "Empty";
+  };
+  class Item1
+  {
+   position[] = {23600.6,3.19,18000.7};
+   name = "respawn_east";
+   type = "Empty";
+  };
+  class Item2
+  {
+   position[] = {23600.6,3.19,18000.8};
+   name = "respawn_west";
+   type = "Empty";
+  };
+  class Item3
+		{
+			position[]={6181.6802,83.907501,16876.699};
+			name="westsafezone";
+			text="Safe Zone";
+			type="mil_warning";
+			colorName="ColorRed";
+		};
+		class Item4
+		{
+			position[]={13334.1,2.23509,14517.9};
+			name="centralspawn";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Grid";
+			a=250;
+			b=250;
+		};
+		class Item5
+		{
+			position[]={13326.2,2.29283,14546.7};
+			name="centralsafezone";
+			text="Safe Zone";
+			type="mil_warning";
+			colorName="ColorRed";
+		};
+		class Item6
+		{
+			position[]={18464.301,23.3512,14263.8};
+			name="eastspawn";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Grid";
+			a=250;
+			b=250;
+		};
+		class Item7
+		{
+			position[]={18461.801,24.769199,14300};
+			name="eastsafezone";
+			text="Safe Zone";
+			type="mil_warning";
+			colorName="ColorRed";
+		};
+		class Item8
+		{
+			position[]={6195.4902,89.220802,16839.301};
+			name="westspawn";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Grid";
+			a=250;
+			b=250;
+		};
+ };
+ class Sensors
+	{
+		items=3;
+		class Item0
+		{
+			position[]={18461.801,24.769199,14300};
+			a=250;
+			b=250;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="eastsafezone";
+			expCond="(player distance eastsafezone) < 250;";
+			expActiv="hint ""You Entered A Safe Zone -  Acts Of War Strictly Forbidden"";  inSafeZone = true;";
+			expDesactiv="hint ""You are leaving the Safe Zone!""; inSafeZone = false;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={6181.6802,83.907501,16876.699};
+			a=250;
+			b=250;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="westsafezone";
+			expCond="(player distance westsafezone) < 250;";
+			expActiv="hint ""You Entered A Safe Zone -  Acts Of War Strictly Forbidden""; inSafeZone = true;";
+			expDesactiv="hint ""You are leaving the Safe Zone!""; inSafeZone = false;";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={13326.2,2.29283,14546.7};
+			a=250;
+			b=250;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="centralsafezone";
+			expCond="(player distance centralsafezone) < 250;";
+			expActiv="hint ""You Entered A Safe Zone - Acts Of War Strictly Forbidden""; inSafeZone = true;";
+			expDesactiv="hint ""You are leaving the Safe Zone!""; inSafeZone = false;";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+ addOns[] = {"a3_map_altis"};
+ addOnsAuto[] = {"a3_map_altis"};
+ randomSeed = 13802307;
+ class Intel
+ {
+  timeOfChanges = 1800;
+  startWeather = 0.3;
+  startWind = 0.1;
+  startWaves = 0.1;
+  forecastWeather = 0.3;
+  forecastWind = 0.1;
+  forecastWaves = 0.1;
+  forecastLightnings = 0.1;
+  year = 2035;
+  month = 6;
+  day = 24;
+  hour = 12;
+  minute = 0;
+  startFogDecay = 0.013;
+  forecastFogDecay = 0.013;
+ };
+};
+class OutroWin
+{
+ addOns[] = {"a3_map_altis"};
+ addOnsAuto[] = {"a3_map_altis"};
+ randomSeed = 4712975;
+ class Intel
+ {
+  timeOfChanges = 1800;
+  startWeather = 0.3;
+  startWind = 0.1;
+  startWaves = 0.1;
+  forecastWeather = 0.3;
+  forecastWind = 0.1;
+  forecastWaves = 0.1;
+  forecastLightnings = 0.1;
+  year = 2035;
+  month = 6;
+  day = 24;
+  hour = 12;
+  minute = 0;
+  startFogDecay = 0.013;
+  forecastFogDecay = 0.013;
+ };
+};
+class OutroLoose
+{
+ addOns[] = {"a3_map_altis"};
+ addOnsAuto[] = {"a3_map_altis"};
+ randomSeed = 10755213;
+ class Intel
+ {
+  timeOfChanges = 1800;
+  startWeather = 0.3;
+  startWind = 0.1;
+  startWaves = 0.1;
+  forecastWeather = 0.3;
+  forecastWind = 0.1;
+  forecastWaves = 0.1;
+  forecastLightnings = 0.1;
+  year = 2035;
+  month = 6;
+  day = 24;
+  hour = 12;
+  minute = 0;
+  startFogDecay = 0.013;
+  forecastFogDecay = 0.013;
+ };
+};
+//};
