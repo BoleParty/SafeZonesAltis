@@ -1,12 +1,29 @@
-#define _ARMA_
-
-
-//Class mission.sqm{
 version = 12;
 class Mission
 {
- addOns[] = {"A3_Soft_F_Car","A3_Soft_F_Quadbike","a3_soft_f_beta_quadbike","A3_Boat_F_Civilian_Boat","A3_Boat_F_Boat_Transport_01","A3_Air_F_Heli_Light_01","A3_Air_F_Heli_Heli_Transport_04","A3_Air_F_Heli_Heli_Transport_03","a3_map_altis","a3_characters_f_gamma","A3_Characters_F_OPFOR","A3_Characters_F_INDEP","A3_Characters_F_Civil","A3_epoch_config","a3_characters_f","A3_Data_F_Curator_Virtual"};
- addOnsAuto[] = {"A3_epoch_config","a3_map_altis"};
+ addOns[] = 
+ {"A3_Soft_F_Car",
+ "A3_Soft_F_Quadbike",
+ "a3_soft_f_beta_quadbike",
+ "A3_Boat_F_Civilian_Boat",
+ "A3_Boat_F_Boat_Transport_01",
+ "A3_Air_F_Heli_Light_01",
+ "A3_Air_F_Heli_Heli_Transport_04",
+ "A3_Air_F_Heli_Heli_Transport_03",
+ "a3_map_altis",
+ "a3_characters_f_gamma",
+ "A3_Characters_F_OPFOR",
+ "A3_Characters_F_INDEP",
+ "A3_Characters_F_Civil",
+ "A3_epoch_config",
+ "a3_characters_f",
+ "A3_Data_F_Curator_Virtual"
+ };
+ addOnsAuto[] = 
+ {
+ "A3_epoch_config",
+ "a3_map_altis"
+ };
  randomSeed = 12032465;
  class Intel
  {
